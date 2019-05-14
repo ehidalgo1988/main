@@ -1,0 +1,64 @@
+/* 
+dark green = #233142
+liught green = #4f9da6
+yellow = #facf5a
+lgiht red = #ff5959
+
+font-family: 'Lato', sans-serif;
+
+
+*/
+
+body{
+    background-color: #facf5a;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: #ff5959
+}
+main{
+    margin-top: 3rem;
+}
+.bg-green{
+    background-color: #233142;
+}
+
+.header{
+    align-items: center;
+    background-image: url(../img/jamie-taylor-110195-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+}
+.title-header{
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 5%;
+    box-shadow: 10px 10px 30px #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 4rem;
+}
+
+.icons-support{
+    
+    color: #4f9da6;
+    cursor: pointer;
+    font-size: 6rem;
+}
+.icons-support i{
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 2rem;
+    padding: 3rem;
+}
